@@ -54,12 +54,12 @@ def str2hex(string):
     return int(string, 16)
 
 def main():
-    parser = argparse.ArgumentParser(prog='dotmatrix-tool', usage=\
+    parser = argparse.ArgumentParser(prog='dotmatrix', usage=\
           "%(prog)s [-v] --font=xxx.ttf --size=32 --output=./ \n")
     parser.add_argument('-v', '--verbose', dest='verbose', action='store_true', help='verbose mode')
     parser.add_argument('-d', '--debug', dest='debug', action='store_true', help='debug bitmap')
     parser.add_argument('--font', dest='font', help='font file', default='font/consola.ttf')
-    parser.add_argument('--size', dest='size', type=int, help='font size', choices=range(8, 64 + 1, 8), default=32)
+    parser.add_argument('--size', dest='size', type=int, help='font size', choices=range(8, 128 + 1, 8), default=32)
     parser.add_argument('--offset', dest='offset', type=int, help='font offset', default=0)
     parser.add_argument('--output', dest='output', help='output path', default='tmp')
     parser.add_argument('--code', dest='code', type=str2hex, help='unicode value', default=0x0033)

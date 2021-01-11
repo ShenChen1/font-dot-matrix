@@ -1,9 +1,7 @@
 #include <stdio.h>
+#include "font.h"
 
-int main()
+int func()
 {
-    FILE *fopen(const char *path, const char *mode);
-
-
-
+    return 0;
 }
