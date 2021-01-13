@@ -1,0 +1,812 @@
+<font>
+    <entry name="Basic Latin" start="0000" end="007F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Latin-1 Supplement" start="0080" end="00FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Latin Extended-A" start="0100" end="017F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Latin Extended-B" start="0180" end="024F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="IPA Extensions" start="0250" end="02AF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Spacing Modifier Letters" start="02B0" end="02FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Combining Diacritics Marks" start="0300" end="036F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Greek and Coptic" start="0370" end="03FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Cyrillic" start="0400" end="04FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Cyrillic Supplement" start="0500" end="052F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Armenian" start="0530" end="058F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Hebrew" start="0590" end="05FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Arabic" start="0600" end="06FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Syriac" start="0700" end="074F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Arabic Supplement" start="0750" end="077F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Thaana" start="0780" end="07BF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="N'Ko" start="07C0" end="07FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Samaritan" start="0800" end="083F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Mandaic" start="0840" end="085F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Syriac Supplement" start="0860" end="086F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Arabic Extended-A" start="08A0" end="08FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Devanagari" start="0900" end="097F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Bengali" start="0980" end="09FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Gurmukhi" start="0A00" end="0A7F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Gujarati" start="0A80" end="0AFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Oriya" start="0B00" end="0B7F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Tamil" start="0B80" end="0BFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Telugu" start="0C00" end="0C7F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Kannada" start="0C80" end="0CFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Malayalam" start="0D00" end="0D7F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Sinhala" start="0D80" end="0DFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Thai" start="0E00" end="0E7F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Lao" start="0E80" end="0EFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Tibetan" start="0F00" end="0FFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Myanmar" start="1000" end="109F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Georgian" start="10A0" end="10FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Hangul Jamo" start="1100" end="11FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Ethiopic" start="1200" end="137F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Ethiopic Supplement" start="1380" end="139F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Cherokee" start="13A0" end="13FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Unified Canadian Aboriginal Syllabics" start="1400" end="167F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Ogham" start="1680" end="169F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Runic" start="16A0" end="16FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Tagalog" start="1700" end="171F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Hanunóo" start="1720" end="173F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Buhid" start="1740" end="175F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Tagbanwa" start="1760" end="177F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Khmer" start="1780" end="17FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Mongolian" start="1800" end="18AF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Unified Canadian Aboriginal Syllabics Extended" start="18B0" end="18FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Limbu" start="1900" end="194F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Tai Le" start="1950" end="197F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="New Tai Lue" start="1980" end="19DF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Khmer Symbols" start="19E0" end="19FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Buginese" start="1A00" end="1A1F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Tai Tham" start="1A20" end="1AAF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Combining Diacritical Marks Extended" start="1AB0" end="1AFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Balinese" start="1B00" end="1B7F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Sundanese" start="1B80" end="1BBF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Batak" start="1BC0" end="1BFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Lepcha" start="1C00" end="1C4F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Ol Chiki" start="1C50" end="1C7F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Cyrillic Extended-C" start="1C80" end="1C8F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Georgian Extended" start="1C90" end="1CBF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Sudanese Supplement" start="1CC0" end="1CCF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Vedic Extensions" start="1CD0" end="1CFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Phonetic Extensions" start="1D00" end="1D7F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Phonetic Extensions Supplement" start="1D80" end="1DBF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Combining Diacritics Marks Supplement" start="1DC0" end="1DFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Latin Extended Additional" start="1E00" end="1EFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Greek Extended" start="1F00" end="1FFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="General Punctuation" start="2000" end="206F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Superscripts and Subscripts" start="2070" end="209F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Currency Symbols" start="20A0" end="20CF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Combining Diacritics Marks for Symbols" start="20D0" end="20FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Letterlike Symbols" start="2100" end="214F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Number Forms" start="2150" end="218F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Arrows" start="2190" end="21FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Mathematical Operators" start="2200" end="22FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Miscellaneous Technical" start="2300" end="23FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Control Pictures" start="2400" end="243F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Optical Character Recognition" start="2440" end="245F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Enclosed Alphanumerics" start="2460" end="24FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Box Drawing" start="2500" end="257F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Block Elements" start="2580" end="259F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Geometric Shapes" start="25A0" end="25FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Miscellaneous Symbols" start="2600" end="26FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Dingbats" start="2700" end="27BF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Miscellaneous Mathematical Symbols-A" start="27C0" end="27EF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Supplemental Arrows-A" start="27F0" end="27FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Braille Patterns" start="2800" end="28FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Supplemental Arrows-B" start="2900" end="297F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Miscellaneous Mathematical Symbols-B" start="2980" end="29FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Supplemental Mathematical Operator" start="2A00" end="2AFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Miscellaneous Symbols and Arrows" start="2B00" end="2BFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Glagolitic" start="2C00" end="2C5F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Latin Extended-C" start="2C60" end="2C7F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Coptic" start="2C80" end="2CFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Georgian Supplement" start="2D00" end="2D2F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Tifinagh" start="2D30" end="2D7F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Ethiopic Extended" start="2D80" end="2DDF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Cyrillic Extended-A" start="2DE0" end="2DFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Supplemental Punctuation" start="2E00" end="2E7F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="CJK Radicals Supplement" start="2E80" end="2EFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Kangxi Radicals" start="2F00" end="2FDF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Ideographic Description Characters" start="2FF0" end="2FFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="CJK Symbols and Punctuation" start="3000" end="303F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Hiragana" start="3040" end="309F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Katakana" start="30A0" end="30FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Bopomofo" start="3100" end="312F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Hangul Compatibility Jamo" start="3130" end="318F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Kanbun" start="3190" end="319F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Bopomofo Extended" start="31A0" end="31BF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="CJK Strokes" start="31C0" end="31EF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Katakana Phonetic Extensions" start="31F0" end="31FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Enclosed CJK Letters and Months" start="3200" end="32FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="CJK Compatibility" start="3300" end="33FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="CJK Unified Ideographs Extension A" start="3400" end="4DBF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Yijing Hexagrams Symbols" start="4DC0" end="4DFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="CJK Unified Ideographs" start="4E00" end="9FFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Yi Syllables" start="A000" end="A48F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Yi Radicals" start="A490" end="A4CF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Lisu" start="A4D0" end="A4FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Vai" start="A500" end="A63F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Cyrillic Extended-B" start="A640" end="A69F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Bamum" start="A6A0" end="A6FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Modifier Tone Letters" start="A700" end="A71F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Latin Extended-D" start="A720" end="A7FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Syloti Nagri" start="A800" end="A82F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Common Indic Number Forms" start="A830" end="A83F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Phags-pa" start="A840" end="A87F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Saurashtra" start="A880" end="A8DF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Devanagari Extended" start="A8E0" end="A8FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Kayah Li" start="A900" end="A92F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Rejang" start="A930" end="A95F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Hangul Jamo Extended-A" start="A960" end="A97F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Javanese" start="A980" end="A9DF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Myanmar Extended-B" start="A9E0" end="A9FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Cham" start="AA00" end="AA5F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Myanmar Extended-A" start="AA60" end="AA7F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Tai Viet" start="AA80" end="AADF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Meetei Mayek Extensions AAE0" end="AAFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Ethiopic Extended-A" start="AB00" end="AB2F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Latin Extended-E" start="AB30" end="AB6F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Cherokee Supplement" start="AB70" end="ABBF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Meetei Mayek" start="ABC0" end="ABFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Hangul Syllables" start="AC00" end="D7AF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Hangul Jamo Extended-B" start="D7B0" end="D7FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="High-half zone of UTF-16" start="D800" end="DBFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Low-half zone of UTF-16" start="DC00" end="DFFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Private Use Area" start="E000" end="F8FF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="CJK Compatibility Ideographs" start="F900" end="FAFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Alphabetic Presentation Forms" start="FB00" end="FB4F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Arabic Presentation Forms A" start="FB50" end="FDFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Variation Selector" start="FE00" end="FE0F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Vertical Forms" start="FE10" end="FE1F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Combining Half Marks" start="FE20" end="FE2F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="CJK Compatibility Forms" start="FE30" end="FE4F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Small Form Variants" start="FE50" end="FE6F">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Arabic Presentation Forms B" start="FE70" end="FEFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Halfwidth and Fullwidth Forms" start="FF00" end="FFEF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+    <entry name="Specials" start="FFF0" end="FFFF">
+        <font>consola.ttf</font>
+        <size>32</size>
+        <offset>0</offset>
+    </entry>
+</font>

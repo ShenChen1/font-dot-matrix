@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 import xml.etree.ElementTree as ET
 import argparse
+import dotmatrix
 import struct
-import subprocess
 import tempfile
 import sys
 import os
@@ -12,6 +12,7 @@ def main():
     parser = argparse.ArgumentParser(prog='font-tool', usage=\
           "%(prog)s [-v] --config=xxx.xml --output=./ \n")
     parser.add_argument('-v', '--verbose', dest='verbose', action='store_true', help='verbose mode')
+    parser.add_argument('-d', '--debug', dest='debug', action='store_true', help='debug bitmap')
     parser.add_argument('--config', dest='config', help='config path', default='config/default.xml')
     parser.add_argument('--output', dest='output', help='output path', default='default.font')
     args = parser.parse_args()
@@ -36,25 +37,22 @@ def main():
         print(name, start, end, font, size, offset)
 
         for code in range(int(start, 16), int(end, 16) + 1):
-            tmpdata = '/tmp/tmp.data'
-            cmd = 'python3 ./bin/dotmatrix.py --font {0} --size {1} --offset {2} --code {3} --output={4}'.format(font, size, offset, str(hex(code)), tmpdata)
-            proc = subprocess.Popen(cmd, shell=True)
-            result = proc.communicate()
-            if proc.returncode:
-                raise AssertionError(cmd)
+
+            gen = dotmatrix.dotmatrix(args.verbose)
+            (image, width, height) = gen.build(code, size, offset, font)
+            bitmap = gen.bitmap(image, width, height)
+            if args.debug:
+                gen.show(bitmap, width, height)
 
             # append font_char_hdr_t
-            width = 8 * os.path.getsize(tmpdata) // size
-            height = size
-            data = struct.pack("<BBHI", width, height, code, location)
+            data = struct.pack("<BBII", width, height, code, location)
             charinfo.write(data)
 
             # append font_char_data_t
-            with open(tmpdata, 'rb') as fd:
-                chardata.write(fd.read())
+            chardata.write(bitmap)
 
             total += 1
-            location += os.path.getsize(tmpdata)
+            location += len(bitmap)
 
     # create font_file_hdr_t
     version = 1

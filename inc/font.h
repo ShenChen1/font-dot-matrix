@@ -14,7 +14,7 @@ typedef struct {
 typedef struct {
     uint8_t width;
     uint8_t height;
-    uint16_t code;
+    uint32_t code;
     uint32_t offset;
 } font_char_hdr_t;
 
