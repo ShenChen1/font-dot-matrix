@@ -394,7 +394,7 @@
         <size>32</size>
         <offset>0</offset>
     </entry>
-    <entry name="Miscellaneous Technical 2300" end="23FF">
+    <entry name="Miscellaneous Technical" start="2300" end="23FF">
         <font>consola.ttf</font>
         <size>32</size>
         <offset>0</offset>

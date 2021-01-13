@@ -35,11 +35,11 @@ class dotmatrix:
         for y in range(height):
             for x in range(width):
                 if bitmap[y * width + x]:
-                    print('0', end=' ')
+                    os.system('echo -n 0')
                 else:
-                    print('.', end=' ')
+                    os.system('echo -n .')
             else:
-                print()
+                os.system('echo')
 
     def bitmap(self, image, width, height):
         pixel = image.load()
@@ -59,7 +59,7 @@ def main():
     parser.add_argument('-v', '--verbose', dest='verbose', action='store_true', help='verbose mode')
     parser.add_argument('-d', '--debug', dest='debug', action='store_true', help='debug bitmap')
     parser.add_argument('--font', dest='font', help='font file', default='font/consola.ttf')
-    parser.add_argument('--size', dest='size', type=int, help='font size', choices=range(8, 128 + 1, 8), default=32)
+    parser.add_argument('--size', dest='size', type=int, help='font size', choices=range(8, 73, 8), default=32)
     parser.add_argument('--offset', dest='offset', type=int, help='font offset', default=0)
     parser.add_argument('--output', dest='output', help='output path', default='tmp')
     parser.add_argument('--code', dest='code', type=str2hex, help='unicode value', default=0x0033)

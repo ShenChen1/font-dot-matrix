@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 # C extensions
+*.o
 *.so
 *.a
 
@@ -128,6 +129,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-# object file
-obj
