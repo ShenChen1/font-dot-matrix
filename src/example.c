@@ -54,7 +54,9 @@ int main(int argc, char **argv)
         printf("charHdr[%d].height:%u\n", i, charHdr[i].height);
         printf("charHdr[%d].offset:%u\n", i, charHdr[i].offset);
 
-        matrix(&data[charHdr[i].offset], charHdr[i].width, charHdr[i].height);
+        if (argv[2]) {
+            matrix(&data[charHdr[i].offset], charHdr[i].width, charHdr[i].height);
+        }
     }
 
     fclose(fp);
