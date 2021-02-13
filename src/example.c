@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "font.h"
+#include "font-hdr.h"
 
 static int access_bit(char *data, int num)
 {

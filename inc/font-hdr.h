@@ -1,5 +1,5 @@
-#ifndef _FONT_H_
-#define _FONT_H_
+#ifndef _FONT_HDR_H_
+#define _FONT_HDR_H_
 
 #include <stdint.h>
 
@@ -20,4 +20,4 @@ typedef struct {
 
 #pragma pack()
 
-#endif /* _FONT_H_ */
+#endif /* _FONT_HDR_H_ */
