@@ -2,7 +2,7 @@
     <entry name="Basic Latin" start="0000" end="007F">
         <font>consola.ttf</font>
         <size>32</size>
-        <offset>0</offset>
+        <offset>-2</offset>
     </entry>
     <entry name="CJK Unified Ideographs" start="4E00" end="9FFF">
         <font>simhei.ttf</font>
